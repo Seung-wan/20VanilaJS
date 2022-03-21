@@ -82,3 +82,11 @@ form.addEventListener('submit', function (e) {
   checkEmail(email);
   checkPasswordsMatch(password, password2);
 });
+
+username.addEventListener('focus', () => {
+  const formControl = username.parentElement;
+  formControl.className = 'form-control ';
+
+  const small = formControl.querySelector('small');
+  small.innerText = '';
+});
