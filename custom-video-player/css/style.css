@@ -19,7 +19,7 @@ h1 {
 .screen {
   cursor: pointer;
   width: 60%;
-  background-color: #000 !important;
+  background-color: #000;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -49,6 +49,7 @@ h1 {
   color: #dc3545;
 }
 .controls .fa-pause {
+  width: 20px;
   color: #fff;
 }
 
